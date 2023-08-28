@@ -1,4 +1,4 @@
-abstract class Employee {
+abstract class Employee implements Salary{
     private int id;
     private String name;
     private int age;

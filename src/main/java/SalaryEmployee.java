@@ -1,4 +1,4 @@
-class SalaryEmployee extends Employee implements Salary {
+class SalaryEmployee extends Employee{
     private double salary;
 
     public SalaryEmployee(int id, String name, int age, double salary) {

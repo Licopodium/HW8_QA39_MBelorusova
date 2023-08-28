@@ -1,4 +1,4 @@
-class WageEmployee extends Employee implements Salary {
+class WageEmployee extends Employee{
     private double hourWage;
     private double hours;
 
